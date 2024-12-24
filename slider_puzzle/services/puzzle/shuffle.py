@@ -1,7 +1,7 @@
 import random
 
-from fifteen_puzzle_solvers.domain import Puzzle
-from fifteen_puzzle_solvers.services.puzzle.validation import PuzzleValidationService
+from slider_puzzle.domain import Puzzle
+from slider_puzzle.services.puzzle.validation import PuzzleValidationService
 
 
 class PuzzleShuffleService:

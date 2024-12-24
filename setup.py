@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='fifteen_puzzle_solvers',
+    name='slider_puzzle',
     version='2.0.0',
     author='Milan Pecov',
     author_email='mpecov@yahoo.ca',
@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/MilanPecov/15-Puzzle-Solvers',
-    packages=find_packages(include=['fifteen_puzzle_solvers', 'fifteen_puzzle_solvers.*']),
+    packages=find_packages(include=['slider_puzzle', 'slider_puzzle.*']),
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

@@ -1,4 +1,4 @@
-from fifteen_puzzle_solvers.services import PuzzleValidationService
+from slider_puzzle.services import PuzzleValidationService
 
 
 class PuzzleSolver:

@@ -2,10 +2,10 @@ import tkinter as tk
 import threading
 from tkinter import font
 
-from fifteen_puzzle_solvers.services.algorithms import AStar
-from fifteen_puzzle_solvers.services.solver import PuzzleSolver
-from fifteen_puzzle_solvers.services.puzzle.shuffle import PuzzleShuffleService
-from fifteen_puzzle_solvers.services.puzzle.constants import (
+from slider_puzzle.services.algorithms import AStar
+from slider_puzzle.services.solver import PuzzleSolver
+from slider_puzzle.services.puzzle.shuffle import PuzzleShuffleService
+from slider_puzzle.services.puzzle.constants import (
     HEURISTIC_OPTIONS, HEURISTIC_TOTAL, ALGORITHM_OPTIONS, ASTAR)
 
 

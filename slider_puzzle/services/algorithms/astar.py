@@ -1,9 +1,9 @@
 # services/algorithms/astar.py
 from typing import List
-from fifteen_puzzle_solvers.domain import Puzzle
-from fifteen_puzzle_solvers.services.algorithms.base import IStrategy
-from fifteen_puzzle_solvers.services.puzzle.heuristic import PuzzleHeuristicService
-from fifteen_puzzle_solvers.services.puzzle.constants import (
+from slider_puzzle.domain import Puzzle
+from slider_puzzle.services.algorithms.base import IStrategy
+from slider_puzzle.services.puzzle.heuristic import PuzzleHeuristicService
+from slider_puzzle.services.puzzle.constants import (
     HEURISTIC_MANHATTAN_DISTANCE, HEURISTIC_MISPLACED, HEURISTIC_TOTAL, HEURISTIC_OPTIONS,
     ASTAR
 )

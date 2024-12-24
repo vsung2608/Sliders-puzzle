@@ -1,5 +1,5 @@
 import tkinter as tk
-from fifteen_puzzle_solvers.ui.puzzle_game import PuzzleGame
+from slider_puzzle.ui.puzzle_game import PuzzleGame
 
 
 def run_ui():
